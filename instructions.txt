@@ -1,0 +1,28 @@
+npm init -y
+
+npm install next@latest react@latest react-dom@latest
+
+Replace script on json file
+"scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  }
+
+Create a folder named app
+Create a file named layout.jsx
+Create a file named page.jsx 
+Layout is structure for the page and page is kind of homepage
+
+Copy and paste boiler code to layout.jsx and page.sx file from below link.
+
+Source: https://nextjs.org/docs/getting-started/installation
+
+To use <Link> import it on layout.jsx file
+import Link from 'next/link'
+
+To create a page, create a folder below app folder with page name and create a page.jsx file
+For example app>about>page.jsx for about us page
+
+Create a folder for components in root to save all components there
